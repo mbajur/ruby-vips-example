@@ -1,9 +1,6 @@
 require 'rubygems'
 require 'image_processing'
 
-puts '---> Vips version:'
-system 'vips --version'
-
 puts '---> Downloading sample gif file'
 system 'wget https://umaar.com/assets/images/dev-tips/screenshot-capture.gif'
 
